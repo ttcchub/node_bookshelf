@@ -1,0 +1,51 @@
+[
+    {
+        "bookID": 1,
+        "name": "Maria and My",
+        "author": "Layla Jones",
+        "year": 2000,
+        "type": "magazine"
+    },
+    {
+        "bookID": 4,
+        "name": "Databases - The rise and fall",
+        "author": "Jesse River",
+        "year": 20124,
+        "type": "pocketbook"
+    },
+    {
+        "bookID": 6,
+        "name": "SQL-mysteries",
+        "author": "Isla Shore",
+        "year": 2018,
+        "type": "leaflet"
+    },
+    {
+        "bookID": 2,
+        "name": "Rebellion of Sophie Q. Lister",
+        "author": "Emily White",
+        "year": 2017,
+        "type": "e-book"
+    },
+    {
+        "bookID": 3,
+        "name": "Hacking databases",
+        "author": "Antony Lee",
+        "year": 2010,
+        "type": "print-on-demand"
+    },
+    {
+        "bookID": 7,
+        "name": "NoSql - New Hope",
+        "author": "Felix Harris",
+        "year": 2011,
+        "type": "hardcover"
+    },
+    {
+        "bookID": 5,
+        "name": "The adventures of Mike the Millipede",
+        "author": "Matt Wilson",
+        "year": 2015,
+        "type": "softcover"
+    }
+]

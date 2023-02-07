@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main, form {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+input[readonly] {
+    background-color: lightgray;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+table, th, td {
+    border: solid black;
+    padding: 0.5em;
+}
+
+thead {
+    background-color: rgb(135, 251, 231);
+}
+
+.gameData p{
+    margin-top: 1em;
+}
+
+p.error {
+    border: dotted rgb(255, 42, 42) 2px;
+    padding: 1em;
+}
+
+p.info {
+    border: solid green 2px;
+    padding: 1em;
+}
+
+h1.error {
+    color: red;
+    
+}
+
+
+button {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 155px;
+    align-items: center;
+    appearance: none;
+    background-color: #e6e6e6;
+    border-radius: 15px;
+    border-color: transparent;
+    border-width: 0;
+    box-sizing: border-box;
+    color: #232323;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 15px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  
+  button:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  button:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    box-shadow: #000000 0 3px 7px inset;
+    
+  }
+  
